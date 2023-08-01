@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(pexels-ithalu-dominguez-907485.jpg) no-repeat center center/cover;
+    height: 650px;
+}
+
+/* .btn {
+    height: 30px; 
+    width: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: white;
+} */
+
+.search {
+    padding: 3px;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+
+.in {
+    padding: 10px;
+    width: 250px;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.cont {
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* height: 200px; */
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box {
+    padding-top: 20px;
+}
+
+.theme {
+    height: 30px;
+    margin-left: 950px;
+    margin-bottom: none;
+    margin-top: 50px;
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+.dark-mode .cont {
+    background-color: black;
+    color: white;
+}
+
+#toggleModeBtn {
+    background-image: url(toggle-on-solid.svg);
+    height: 38px;
+    width: 40px;
+    /* border: 2px solid black; */
+}
+
+.weatherInfo {
+    /* border: 2px solid black; */
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: none;
+    margin-right: 50px;
+}
+
+.weather {
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.temp {
+    margin-right: 150px;
+    padding-left: 50px;
+}
+
+.humid {
+    margin-left: 150px;
+}
+
+.water {
+    height: 25px;
+    margin-left: 15px;
+}
+
+.icon {
+    height: 70px;
+}
+
+.error {
+    display: none;
+}
